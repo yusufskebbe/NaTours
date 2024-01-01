@@ -1,0 +1,23 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufskebbe/NaTours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusufskebbe/NaTours/issues"
+  },
+  "homepage": "https://github.com/yusufskebbe/NaTours#readme",
+  "devDependencies": {
+    "sass": "^1.69.6"
+  }
+}
