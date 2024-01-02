@@ -39,3 +39,19 @@
     text-shadow: .5rem 1rem 2rem rgbaa($color-primary-dark, .2);
   }
 }
+
+.heading-tertairy{
+ 
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph{
+  
+  font-size: $default-font-size;
+  &:nth-last-of-type(2){
+    margin-bottom:3rem;
+    
+  }
+}
