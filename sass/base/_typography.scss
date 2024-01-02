@@ -1,0 +1,33 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color:#773;
+  padding: 3rem;
+}
+
+
+.heading-primary{
+  color: #fff;
+  text-transform: uppercase;
+  
+  &--main{
+  display: block;
+  font-size: 6rem;
+  letter-spacing: 3.5rem;
+  font-weight: 400;
+  animation: moveToRight 1s; 
+  }
+
+
+  &--sub{
+  display: block;
+  font-size: 2rem;
+  letter-spacing: .7rem;
+  font-weight: 700;
+  animation: moveToLeft 1s;
+  margin-bottom: 5rem;
+  }
+}
