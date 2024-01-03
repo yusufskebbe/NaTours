@@ -1,0 +1,20 @@
+
+// placeholder transition from input 
+
+- if we want to style placeholder in forms 
+
+- we put input before the label in html structure 
+
+- then in css we select it with sibling selector
+
+-- input:placeholder-shown + &__label{
+
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-4rem);
+
+}
+
+
+// radio button select one
+- if we want to select only one radio button we give the same name value to them 
