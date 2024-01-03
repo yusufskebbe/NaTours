@@ -58,7 +58,7 @@ body {
   font-weight: bold;
   font-size: 1.6rem;
   line-height: 1.7;
-  color: #773;
+  color: #3d3d3d;
   padding: 3rem;
 }
 
@@ -86,8 +86,16 @@ body {
   text-align: center;
 }
 
-.u-margin-bottom {
+.u-margin-bottom-small {
+  margin-bottom: 6rem;
+}
+
+.u-margin-bottom-medium {
   margin-bottom: 8rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 10rem;
 }
 
 .btn:link, .btn:visited {
@@ -147,6 +155,7 @@ body {
 .btn-text:hover {
   background-color: #55c57a;
   color: #fff;
+  border-radius: 10px;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   transform: translateY(-2px);
 }
@@ -189,6 +198,18 @@ body {
   transform: scale(0.95);
 }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgab(#000, 0.4);
+}
+.feature-box__icon {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+}
 .header {
   position: relative;
   height: 95vh;
@@ -250,7 +271,7 @@ body {
 .row:not(:last-child) {
   margin-bottom: 8rem;
 }
-.row ::after {
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -284,6 +305,15 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -25vh;
+  margin-bottom: 8rem;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 /*

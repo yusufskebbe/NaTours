@@ -69,6 +69,7 @@
   &:hover{
     background-color: $color-primary;
     color: $color-white;
+    border-radius: 10px;
     box-shadow:0 1rem 2rem rgba($color-black, .5) ;
     transform: translateY(-2px);
   }
