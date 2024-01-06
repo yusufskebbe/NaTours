@@ -18,3 +18,21 @@
 
 // radio button select one
 - if we want to select only one radio button we give the same name value to them 
+
+// Managing popup
+
+-  if we want to have pop up 
+- fist we create it then make 
+  - opacity and visibility to 0 
+- then make special id for it 
+- then in a tag we set href="id" 
+in css pop:target{
+      opacity:1
+      visibility:visiable
+}
+
+// for the media queeries we use em for the max width d
+
+
+
+// density switching in html srcset="img/.jpg 1x, img/img.jpg2 2x " browser choose whice is the best for the user high resoulition secren
